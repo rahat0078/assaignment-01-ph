@@ -57,6 +57,7 @@ nav ul li{
     border: 1px solid rgb(13, 19, 33,);  
     opacity: 0.8;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 
@@ -111,6 +112,7 @@ nav ul li{
     display: block;
     width: fit-content;
     text-decoration: none;
+    cursor: pointer;
 
 }
 
@@ -175,6 +177,7 @@ h2{
     text-align: center;
     padding: 12px 20px;
     margin-top: 32px;
+    cursor: pointer;
 }
 
 
@@ -300,4 +303,27 @@ h2{
     color: rgb(13, 19, 33);
     font-size: 20px;
     background-color: rgb(255, 255, 255); 
+    cursor: pointer;
+}
+
+
+/* footer section styles  */
+footer{
+    margin-top: 80px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.footer-container{
+    padding: 32px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+footer a{
+    text-decoration: none;
+    margin-left: 24px;
 }
