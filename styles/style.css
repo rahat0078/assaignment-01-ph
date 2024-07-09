@@ -21,6 +21,7 @@ body{
     color: #0D1321B3;
     font-size: 16px;
     font-weight: 400;
+    line-height: 26px;
 }
 h3{
     color: rgba(13, 19, 33, 0.7);
@@ -120,7 +121,8 @@ nav ul li{
 /* main section starts here  */
 main{
     width: 1140px;
-    margin: 0 auto;}
+    margin: 0 auto;
+}
 h2{
     font-size: 32px;
     font-weight: 800;
@@ -172,7 +174,7 @@ h2{
     font-weight: 600;
     text-align: center;
     padding: 12px 20px;
-    margin-top: 10px;
+    margin-top: 32px;
 }
 
 
@@ -189,6 +191,7 @@ h2{
 }
 
 .inspiration-vedio{
+    margin-top: 48px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
@@ -196,4 +199,54 @@ h2{
 }
 .inspiration-vedio iframe{
     border-radius: 16px;
+}
+
+
+/* end of inspiration section's styles */
+
+
+
+ /* ----My current target section start here------ */
+
+.target-header{
+    text-align: center;
+    width: 946px;
+    margin: 0 auto;
+}
+.target-container{
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.target-content{
+    width: 284px;
+    padding: 40px;
+    border-radius: 16px;
+    
+}
+.target-container-title{
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+}
+#learn-more-link{
+    Font-weight: 700;
+    Font-size: 16px;
+    color: black;
+    margin-top: 24px;
+    display: block;
+}
+
+/* for backgorund  */
+
+.target-content-bg-1{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.target-content-bg-2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.target-content-bg-3{
+    background-color: rgba(255, 223, 0, 0.05);
 }
