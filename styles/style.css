@@ -359,7 +359,8 @@ h2{
     border: none;
 }
 .input-box button{
-    padding: 18px 24px;
+    width: 120px;
+    height: 58px;
     border-radius: 8px;
     font-weight: 700;
     color: rgb(13, 19, 33);
