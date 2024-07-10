@@ -213,7 +213,7 @@ h2{
 
 .target-header{
     text-align: center;
-    width: 946px;
+    width: 850px;
     margin: 0 auto;
 }
 .target-container{
@@ -229,10 +229,13 @@ h2{
     border-radius: 16px;
     
 }
+.target-content img{
+    margin-bottom: 24px;
+}
 .target-container-title{
     font-size: 24px;
     font-weight: 800;
-    margin-top: 24px;
+    margin-bottom: 8px;
 }
 #learn-more-link{
     Font-weight: 700;
@@ -253,6 +256,66 @@ h2{
 .target-content-bg-3{
     background-color: rgba(255, 223, 0, 0.05);
 }
+
+
+/* next target secion styles start here  */
+.next-target{
+    margin-top: 112px;
+}
+.next-target-container{
+    margin-top: 48px;
+} 
+.next-target-items{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.next-target-items-content{
+    width: 900px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* support section styles here */
@@ -291,13 +354,12 @@ h2{
     padding: 22px;
     border-radius: 8px;
     width: 548px;
-    color: rgba(13, 19, 33, 0.4);
-    font-size: 16px;
+    color: black;
     font-weight: 400;
     border: none;
 }
 .input-box button{
-    padding: 19px 24px;
+    padding: 18px 24px;
     border-radius: 8px;
     font-weight: 700;
     color: rgb(13, 19, 33);
@@ -315,8 +377,8 @@ footer{
 .footer-container{
     padding: 32px 150px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
 }
 footer h3{
     font-size: 20px;
